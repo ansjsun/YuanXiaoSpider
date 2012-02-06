@@ -410,7 +410,7 @@ public class SpiderIO {
 			IOUtil.write(lineNumPath,
 					(urlBr.getLineNumber() - URLManager.getUrlsSize()) + "");
 			urlBr.close();
-			System.out.println("文件流关闭完毕");
+			System.out.println("文件流关闭完毕.系统即将停止!");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
