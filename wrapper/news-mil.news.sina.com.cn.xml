@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+	<listUrlRegex>
+		http://roll.mil.news.sina.com.cn/col/zgjq/index_\d+.shtml
+	</listUrlRegex>
+	<urlBlock>
+		<![CDATA[
+			<div class="fixList">ANSJTEXT</div>
+		]]>
+	</urlBlock>
+	<nextPage>
+		<![CDATA[
+			<a title="下一页"ANSJTEXT下一页
+		]]>
+	</nextPage>
+	<urlRegex>http://mil.news.sina.com.cn/\d{4}-\d{2}-\d{2}/\d+.html</urlRegex>
+	<title>
+		<![CDATA[
+			<h1 id="artibodyTitle">ANSJTEXT</h1>
+		]]>
+	</title>
+	<content>
+		<![CDATA[
+			<!-- publish_helper name='原始正文' p_id='\d+' t_id='\d+' d_id='\d+' f_id='\d+' -->ANSJTEXT<style type="text/css">
+		]]>
+	</content>
+	<publishTime>
+		<![CDATA[
+			<span id="pub_date">ANSJTEXT</span>
+		]]>
+	</publishTime>
+	<author>
+		<![CDATA[
+			<span id="media_name">ANSJTEXT</span>
+		]]>
+	</author>
+</configure>
